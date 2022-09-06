@@ -12,6 +12,13 @@ class Animal {
 }
 
 class Shark extends Animal {
-    constructor(name, age, status)
-    super(name, age, status)
+    constructor(name, age, status) {
+        super(name, age, status)
+        this.name = name 
+        this.age = age
+    }
+    show() {
+        return introduce + `Kake ${this.legs}, spesies ${this.species} status ${this.status}`
+    }
+    
 }
