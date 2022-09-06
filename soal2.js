@@ -22,3 +22,11 @@ class Shark extends Animal {
     }
     
 }
+
+
+
+
+
+let myAnimal = new Shark('Hiu', 10, 0, 'Shark', 'Berenang')
+
+module.exports = myAnimal

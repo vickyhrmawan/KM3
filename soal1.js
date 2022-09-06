@@ -12,4 +12,5 @@ function Ship(draft, crew) {
 
 
 let myShip = new Ship(12, 14)
-console.log(myShip)
+
+module.exports = myShip
