@@ -1,7 +1,7 @@
-// // SOAL NO 1
-// const os = require('os');
-// const Ship = require('./soal1.js');
-// let emptyShip = new Ship(5, 2);
+// SOAL NO 1
+const os = require('os');
+const Ship = require('./soal1.js');
+let emptyShip = new Ship(4, 7);
 
 
 //SOAL NO 2
