@@ -1,5 +1,5 @@
-let draft= 10
-let crew = 8
+var draft= 10
+var crew = 8
 var emptyShip = new Ship(draft, crew)
 
 function Ship(draft, crew) {
