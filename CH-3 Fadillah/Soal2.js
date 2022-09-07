@@ -13,11 +13,9 @@ class Animal{
 }
 
 //Class Inheritance
-class Shark extends Animal{ //Use the "extends" keyword to inherit all methods from another class.
+class Shark extends Animal{ 
     constructor (name, age, status){
         super (name, age, '0', 'Shark', status)
-        //The super() method refers to the parent class. By calling the super() method in the constructor method, 
-        //we call the parent's constructor method and gets access to the parent's properties and methods.
     }
     show(){
         return this.introduce() + `I have ${this.legs} legs, I am a ${this.species}, I like ${this.status}`
