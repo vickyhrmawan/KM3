@@ -43,10 +43,6 @@ class Dog extends Animal {
     
 }
 
-// let iniShark = new Shark('Hiu', 10, 'Berenang')
-// let iniCat = new Cat('Stray', 2, 'Bermain')
-// let iniDog = new Dog('Puppy', 3, 'Berjalan', 'Azki')
-
 module.exports = {
     Shark,
     Cat,
