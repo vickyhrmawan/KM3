@@ -26,7 +26,7 @@ class Shark extends Animal {
 }
 
 class Cat extends Animal {
-  constructor(name, age, status) {
+  constructor() {
     super(...arguments);
     this.name = "kucing";
     this.age = 2;
