@@ -12,5 +12,5 @@ function Ship(draft, crew) {
     }
 
 }
-// console.log(emptyShip.result());
+
 module.exports = Ship;
