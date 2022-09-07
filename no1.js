@@ -1,3 +1,5 @@
+let emptyShip = new Ship(5, 5);
+
 function Ship(draft, crew) {
     this.draft = draft;
     this.crew = crew;
@@ -5,14 +7,11 @@ function Ship(draft, crew) {
     let calculateDraft = () => {
         let totalDraft = this.draft + (this.crew * 1.5);
         if (totalDraft > 20) {
-            return "Banyak nih muatannya"
+            console.log("Banyak nih muatannya")
         } else {
-            return "Lebih banyak muatan orangnya"
+            console.log("Lebih banyak muatan orangnya")
         }
     }
 
-    return calculateDraft;
+    calculateDraft()
 }
-
-let emptyShip = new Ship(5, 5);
-console.log(emptyShip());
