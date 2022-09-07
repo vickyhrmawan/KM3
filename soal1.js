@@ -4,11 +4,8 @@ function Ship(draft, crew) {
     this.draft = draft + crew * 1.5;
     this.crew = crew;
 
-    if (this.draft > 20) {
-        console.log("Banyak nih muatan kapalnya");
-    } else {
-        console.log("Lebih banyak muatan orangnya..");
-    }
+    this.draft > 20 ? console.log(`Banyak nih muatan kapalnya (${this.draft} muatan)`) 
+    : console.log(`Lebih banyak muatan orangnya (${this.crew} orang)`)
 }
 
 module.exports = emptyShip;
