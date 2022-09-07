@@ -1,5 +1,5 @@
 {
-  "name": "ch-3-fauzi",
+  "name": "ch-3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickyhrmawan/KM3.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "chalk": "^5.0.1"
+  "bugs": {
+    "url": "https://github.com/vickyhrmawan/KM3/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  }
+  "homepage": "https://github.com/vickyhrmawan/KM3#readme"
 }

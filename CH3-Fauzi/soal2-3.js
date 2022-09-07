@@ -49,9 +49,9 @@ class Dog extends Animal {
     this.legs = 4;
     this.species = "Dog";
   }
-introduce() {
-  return `nama ${this.name}, umur ${this.age}, kaki ${this.legs}, species ${this.species}, status ${this.status}, pemilik ${this.master}`;
-}
+  introduce() {
+    return `nama ${this.name}, umur ${this.age}, kaki ${this.legs}, species ${this.species}, status ${this.status}, pemilik ${this.master}`;
+  }
   GreetMaster() {
     return `Hello ${this.master}`;
   }
