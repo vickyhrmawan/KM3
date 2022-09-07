@@ -44,16 +44,23 @@ class Cat extends Animal {
 }
 
 class Dog extends Animal {
-  constructor(name, age, status, master) {
+  constructor() {
     super(...arguments);
     this.legs = 4;
     this.species = "dog";
+    this.name = "Anjing";
     this.status = "berjalan";
     this.master = "Jajang";
     this.greetMaster();
   }
   greetMaster() {
-    return `Hello ${this.master}`;
+    return `${this.master} Adalah Master ku`;
+  }
+  introduce() {
+    return (
+      `Halo saya ${this.name},aku ${this.status} dengan ${this.legs} kaki, aku berspesies ${this.species}, ` +
+      this.greetMaster()
+    );
   }
 }
 
@@ -61,7 +68,7 @@ var shark1 = new Shark();
 console.log(shark1.introduce());
 
 var dog1 = new Dog();
-console.log(dog1.greetMaster());
+console.log(dog1.introduce());
 
 var cat1 = new Cat();
 console.log(cat1.introduce());
