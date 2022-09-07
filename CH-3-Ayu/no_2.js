@@ -22,6 +22,10 @@ class Shark extends Animal{
         return this.introduce() + ' I can ' + this.status
     }
 }
+let myShark = new Shark("SharkBoy", 11, "Swim")
+console.log(myShark.show())
+console.log(myShark)
+
 
 class Cat extends Animal{
     constructor(name, age, status){
@@ -34,6 +38,9 @@ class Cat extends Animal{
         return this.introduce() + ' I can ' + this.status
     }
 }
+let myCat = new Cat("Jaenudin", 5, "run")
+console.log(myCat.show())
+console.log(myCat)
 
 class Dog extends Animal{
     constructor(name, age, status, master){
@@ -51,14 +58,6 @@ class Dog extends Animal{
         return this.introduce() + this.greetMaster()
     }
 }
-
-let myShark = new Shark("SharkBoy", 11, "Swim")
-let myCat = new Cat("Jaenudin", 5, "run")
 let myDog = new Dog("Asep", 4, "bite", "Ayuapry")
-
-console.log(myShark.show())
-console.log(myShark)
-console.log(myCat.show())
-console.log(myCat)
 console.log(myDog.show())
 console.log(myDog)
