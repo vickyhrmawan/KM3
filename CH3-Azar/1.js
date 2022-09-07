@@ -4,6 +4,8 @@ var emptyShip1 = new Ship(6, 10); // draft total 21
 // console.log(emptyShip.getShipCrew());
 console.log(emptyShip.getTotalDraft());
 console.log(emptyShip1.getTotalDraft());
+emptyShip.setShipDraft(5);
+console.log(emptyShip.getTotalDraft());
 
 // membuat function untuk menentukan jumlah muatan di kapal
 function Ship(draft, crew) {
@@ -17,6 +19,13 @@ function Ship(draft, crew) {
   };
   this.getShipDraft = () => {
     return this.draft;
+  };
+
+  this.setShipCrew = (crew) => {
+    this.crew = crew;
+  };
+  this.setShipDraft = (draft) => {
+    this.draft = draft;
   };
   this.getTotalDraft = () => {
     if (this.draft + this.crew * 1.5 > 20) {
