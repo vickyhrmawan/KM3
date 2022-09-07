@@ -1,5 +1,6 @@
+//Parent Class
 class Animal{
-    constructor(name, age, status, legs, species){
+    constructor(name, age, legs, species, status){
         this.name = name
         this.age = age
         this.status = status
@@ -7,55 +8,54 @@ class Animal{
         this.species = species
     }
     introduce(){
-        return `Hello, my name is ${this.name} and I am ${this.age} years old, `
+        return `Hello, my name is ${this.name}, I am ${this.age} years old, `
     }
 }
 
-class Shark extends Animal{
+//Class Inheritance
+class Shark extends Animal{ //Use the "extends" keyword to inherit all methods from another class.
     constructor (name, age, status){
-        super (name, age, status)
-        this.legs = 0
-        this.species = 'shark'
+        super (name, age, '0', 'Shark', status)
+        //The super() method refers to the parent class. By calling the super() method in the constructor method, 
+        //we call the parent's constructor method and gets access to the parent's properties and methods.
     }
     show(){
-        return this.introduce() + `kaki ${this.legs}, spesies ${this.species}, status ${this.status}`
+        return this.introduce() + `I have ${this.legs} legs, I am a ${this.species}, I like ${this.status}`
     }
 }
 
+//Class Inheritance
 class Cat extends Animal{
     constructor (name, age, status){
-        super (name, age, status)
-        this.legs = 4
-        this.species = 'cat'
+        super (name, age, '4', 'Cat', status)
     }
     show(){
-        return this.introduce() + `kaki ${this.legs}, spesies ${this.species}, status ${this.status}`
+        return this.introduce() + `I have ${this.legs} legs, I am a ${this.species}, I like ${this.status}`
     }
 }
 
+//Class Inheritance
 class Dog extends Animal{
     constructor (name, age, status, master){
-        super (name, age, status)
-        this.legs = 4
-        this.species = 'dog'
+        super (name, age, '4', 'Dog', status)
         this.master = master
     }
     GreetMaster(){
         return `${this.master} is my owner`
     }
     show(){
-        return this.introduce() + this.GreetMaster() + `, kaki ${this.legs}, spesies ${this.species}, status ${this.status}`
+        return this.introduce() + `I have ${this.legs} legs, I am a ${this.species}, I like ${this.status}, and ` + this.GreetMaster()
     }
 }
 
 //Shark
-const shark = new Shark('Hiu', 10, 'Swim');
-console.log(shark.show());
+const showShark = new Shark('Shaky', 10, 'Swimming');
+console.log(showShark.show());
 
 //Cat
-const cat = new Cat('Kucing', 12, 'Run');
-console.log(cat.show());
+const showCat = new Cat('Milo', 12, 'Running');
+console.log(showCat.show());
 
 //Dog
-const dog = new Dog('Anjing', 12, 'Sleep', 'Ardi');
-console.log(dog.show());
+const showDog = new Dog('Bubu', 12, 'Running', 'Albert');
+console.log(showDog.show());
