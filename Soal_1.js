@@ -9,7 +9,7 @@ function Ship(draft,crew) {
     }
 }
   
-var emptyShip = new Ship(100,20);
+var emptyShip = new Ship(100, 20);
 console.log(emptyShip);
-var cakalang = new Ship(8,25);
+var cakalang = new Ship(15, 30);
 console.log(cakalang);
