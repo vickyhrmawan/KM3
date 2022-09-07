@@ -6,11 +6,14 @@ const {
     Dog
 } = require('./Animal.js');
 
+
 //No 1
 let emptyShip = new Ship(16, 1.5);
 console.log('============== No 1 ===============');
 console.log(emptyShip.result());
 console.log('===================================\n');
+
+
 //No 2
 let shark1 = new Shark('hiu putih', 10, 'Berenang');
 let cat1 = new Cat('cici', 10, 'berlari');
