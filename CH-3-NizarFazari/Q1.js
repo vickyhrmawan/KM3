@@ -8,9 +8,9 @@ function Ship(draft, crew) {
   this.totDraft = draft + crew * 1.5;
 
   if (this.totDraft > 20) {
-    console.log("Banyak nih muatannya");
+    console.log(" Banyak nih muatannya");
   } else {
-    console.log("lebih banyak muatan orangnya");
+    console.log(" lebih banyak muatan orangnya");
   }
 }
 
