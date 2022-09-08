@@ -1,3 +1,5 @@
+// no 1
+
 var draft= 10
 var crew = 8
 var emptyShip = new Ship(draft, crew)
