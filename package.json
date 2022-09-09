@@ -1,0 +1,27 @@
+{
+  "name": "final-challenge-chapter3",
+  "version": "1.0.0",
+  "description": "Dear students,\r Let's connect and collaborate!\r Happy coding ;)\r Catatan:\r Silakan clone repo ini. Kemudian upload/push tugas ke dalam branch yang sudah disediakan sesuai dengan aktivitas belajar tiap minggu.\r Bacalah README di setiap branch terlebih dahulu (ada info tugas apa saja yang perlu di push)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickyhrmawan/KM3.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vickyhrmawan/KM3/issues"
+  },
+  "homepage": "https://github.com/vickyhrmawan/KM3#readme"
+}
