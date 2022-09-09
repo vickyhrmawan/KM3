@@ -17,7 +17,7 @@ class Shark extends Animal{
         this.legs = 0
         this.species = "Shark"
     }
-    show(){
+    intro(){
         return this.introduce()
     }
 }
@@ -28,7 +28,7 @@ class Cat extends Animal{
         this.legs = 4
         this.species = "Cat"
     }
-    show(){
+    intro(){
         return this.introduce()
     }
 }
@@ -44,7 +44,7 @@ class Dog extends Animal{
     greetMaster(){
         return `Hail my master ${this.master}. `
     }
-    show(){
+    intro(){
         return this.greetMaster() + this.introduce()
     }
 }
@@ -55,12 +55,12 @@ let myDog = new Dog("Joergen", 4, "Bite", "Regis")
 
 console.log (`Shark`)
 console.log (`--------`)
-console.log(myShark.show())
+console.log(myShark.intro())
 console.log(`\n`)
 console.log (`Cat`)
 console.log (`--------`)
-console.log(myCat.show())
+console.log(myCat.intro())
 console.log(`\n`)
 console.log (`Dog`)
 console.log (`--------`)
-console.log(myDog.show())
+console.log(myDog.intro())
