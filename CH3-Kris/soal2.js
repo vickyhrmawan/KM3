@@ -7,7 +7,7 @@ class Animal {
         this.status = status
     }
     introduce() {
-        return `Hello, my name is ${this.name} and I am ${this.age} years old.`
+        return `Hello, my name is ${this.name} and I am ${this.age} years old. I have ${this.legs}, I am a ${this.species}, and i ${this.status}`
     }
 }
 
@@ -18,6 +18,6 @@ class Shark extends Animal{
         this.species = "Shark"
     }
     show(){
-        return this.introduce() + ' I can ' + this.status
+        return this.introduce()
     }
 }
