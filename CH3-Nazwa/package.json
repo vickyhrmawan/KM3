@@ -1,0 +1,12 @@
+{
+  "name": "ch3-nazwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "no1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo CH3-Nazwa"
+  },
+  "author": "",
+  "license": "ISC"
+}
