@@ -20,10 +20,6 @@ class Shark extends Animal {
   }
 }
 
-let shark = new Shark("Ini Hiu", 22, "jomblo");
-console.log(shark);
-console.log(shark.introduced());
-
 class Cat extends Animal {
   constructor(name, age, status) {
     super(name, age, status);
@@ -31,9 +27,6 @@ class Cat extends Animal {
     this.species = "cat";
   }
 }
-let cat = new Cat(" Ini kucing", 22, "nikah");
-console.log(cat);
-console.log(cat.introduced());
 
 class Dog extends Animal {
   constructor(name, age, status, master) {
@@ -47,6 +40,8 @@ class Dog extends Animal {
   }
 }
 
-let dog = new Dog(" Ini anjing", 10, "sekolah", "Nizar");
-console.log(dog);
-console.log(dog.Greetmaster());
+module.exports = {
+  Shark,
+  Cat,
+  Dog,
+};

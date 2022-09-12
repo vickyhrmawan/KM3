@@ -14,4 +14,4 @@ function Ship(draft, crew) {
   }
 }
 
-console.log(emptyShip.totDraft);
+module.exports = emptyShip.totDraft;
