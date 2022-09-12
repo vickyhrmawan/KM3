@@ -7,7 +7,7 @@ class Animal {
       this.species = species; 
       this. status = status; 
   } 
-  //ini adalah function dari show untuk menampilkan nilai pada console
+  //ini adalah methode dari show untuk menampilkan nilai class animal pada console
   show() { 
       console.log (`nama ${this.name}, umur ${this.age}, kaki ${this.legs}, spesies ${this.species}, status ${this.status}\n`); 
   } 
@@ -25,7 +25,7 @@ class Shark extends Animal {
   } 
 } 
 
-//membuat object dari class shark
+//menampilkan object dari class shark
 const shark = new Shark() 
 shark.show() 
 
@@ -41,7 +41,7 @@ class Cat extends Animal {
   } 
 } 
 
-//membuat object dari class cat
+//menampilkan object dari class cat
 const cat = new Cat() 
 cat.show() 
 
@@ -57,6 +57,6 @@ class Dog extends Animal {
   } 
 } 
 
-//membuat object baru dari class dog
+//menampilkan object baru dari class dog
 const dog = new Dog() 
 dog.show()
