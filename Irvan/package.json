@@ -1,0 +1,14 @@
+{
+  "name": "final_chapter3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "soal1": "node soal1.js",
+    "soal2": "node soal2.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
