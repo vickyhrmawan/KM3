@@ -14,3 +14,5 @@ function Ship(draft, crew) {
     return (draftTot < 20) ? 
     console.log("Muatan overload") : console.log("Terlalu banyak crew nyaa")
 }
+  
+ 
