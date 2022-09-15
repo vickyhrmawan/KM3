@@ -9,3 +9,4 @@ function Ship (draft, crew){
     
     draft > 20 ? console.log (`Banyak nih muatan kapalnya (Muatan = ${draft})`) : console.log (`Lebih banyak muatan orangnya (Muatan = ${draft})`);
 }
+
